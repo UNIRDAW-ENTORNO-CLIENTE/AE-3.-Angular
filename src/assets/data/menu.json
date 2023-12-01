@@ -1,0 +1,19 @@
+[
+    {
+        "nombre": "Mis Videojuegos",
+        "redirect": "/dashboard"
+    },
+    {
+        "nombre": "Videojuegos",
+        "redirect": "/dashboard/videojuegos"
+    },
+    {
+        "nombre": "Contacto",
+        "redirect": "/dashboard/contacto"
+    },
+    {
+        "nombre": "Sobre Nosotros",
+        "redirect": "/dashboard/nosotros"
+    }
+    
+]
