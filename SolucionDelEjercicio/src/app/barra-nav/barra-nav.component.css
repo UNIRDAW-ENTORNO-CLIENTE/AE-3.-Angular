@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #287be5; /* Fondo de color azul marino */
+    text-align: center; /* Centrar texto */
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none; /* Quitar viñetas de la lista */
+    padding: 0;
+}
+
+li {
+    display: inline-block; /* Mostrar elementos en línea */
+    margin: 10px; /* Espaciado entre elementos */
+}
+
+/* Puedes agregar estilos adicionales según tus necesidades */
+li a {
+    text-decoration: none;
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    display: block; /* Ocupar todo el ancho del contenedor */
+}
+
+

@@ -1,0 +1,24 @@
+<body>
+    <header>
+        <h2>Usuario: {{user}}</h2>
+      </header>
+      <br>
+      <table class="mi-tabla"> 
+        <tr>
+            <th>ID</th>
+            <th>TITULO</th>
+            <th>VALORACION</th>
+        </tr>
+        <tr *ngFor="let juego of listaVideojuegos" (click)="navegarADetalles(juego)">
+            <td>{{ juego.id }}</td>
+            <td>{{ juego.titulo }}</td>
+            <td>{{ juego.valoracion }}</td>
+        </tr>
+        <tr *ngIf="listaVideojuegos.length==0">
+            <td class="rojo" colspan="4">
+                NO SE HAN ENCONTRADO VIDEOJUEGOS
+            </td>
+        </tr>
+    </table> 
+    
+</body>

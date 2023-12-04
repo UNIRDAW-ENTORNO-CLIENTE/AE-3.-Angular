@@ -1,0 +1,60 @@
+button{
+    background-color: white;
+    border: 0;
+}
+button:hover{
+    color: #f80000;
+}
+div{
+    width: 20%;
+    
+}
+img{
+    width: 130px;
+    height: 100px;
+}
+
+.mi-tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mi-tabla th, .mi-tabla td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+
+
+header {
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+
+  section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    color: white;
+  }
+
+  p {
+    line-height: 1.6;
+    color: #555;
+  }
+
+  td{
+    text-align: center;
+  }

@@ -1,0 +1,18 @@
+<table>
+    <tr>
+        <th colspan="3">APP VIDEOJUEGOS</th>
+    </tr>
+    <tr>
+        <td>Nombre de usuario:</td>
+        <td><input type="text" [(ngModel)]="username"></td>
+        <td *ngIf="login" style="color: brown;">Error al iniciar sesion</td>
+    </tr>
+    <tr>
+        <td>Contraseña de usuario:</td>
+        <td><input type="password" [(ngModel)]="password"></td>
+        <td *ngIf="login" style="color: brown;">Error al iniciar sesion</td>
+    </tr>
+    <tr>
+        <th colspan="3"><button (click)="logearse()">Entar</button></th>
+    </tr>
+</table>
